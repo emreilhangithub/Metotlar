@@ -49,7 +49,10 @@ namespace Metotlar
 
         }
 
-        
+        int Carp(int s1, int s2,int s3)
+        {
+            return s1 * s2 * s3;
+        }
 
 
 
@@ -75,6 +78,11 @@ namespace Metotlar
             label3.Text = Toplam(9,8).ToString();
         }
 
-      
+        private void button5_Click(object sender, EventArgs e)
+        {
+            label4.Text = Carp(5,2,10).ToString();
+            label5.Text = Carp(20,10,10).ToString();
+            label6.Text = Carp(7,8,10).ToString();
+        }
     }
 }
