@@ -60,6 +60,15 @@ namespace Metotlar
             return sonuc;
         }
 
+        void Listele()
+        {
+            for (int i = 1; i < 11; i++)
+            {
+                listBox1.Items.Add(i);
+            }
+        }
+
+
         private void button1_Click(object sender, EventArgs e)
         {
             temizle();
@@ -103,6 +112,11 @@ namespace Metotlar
 
             label8.Text = Toplam(sayi1,sayi2).ToString();
 
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            Listele();
         }
     }
 }
