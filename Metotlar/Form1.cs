@@ -68,6 +68,15 @@ namespace Metotlar
             }
         }
 
+        void yaz(string yazi)
+        {
+            for (int i = 0; i < 5; i++)
+            {
+                listBox2.Items.Add(yazi);
+            }
+        }
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -117,6 +126,14 @@ namespace Metotlar
         private void button8_Click(object sender, EventArgs e)
         {
             Listele();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            string yazi = textBox8.Text;
+
+            yaz(yazi);
+
         }
     }
 }

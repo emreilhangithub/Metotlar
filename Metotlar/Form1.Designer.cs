@@ -53,6 +53,9 @@ namespace Metotlar
             this.button7 = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -265,11 +268,40 @@ namespace Metotlar
             this.button8.UseVisualStyleBackColor = true;
             this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(568, 288);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(100, 36);
+            this.button9.TabIndex = 25;
+            this.button9.Text = "Yaz";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 20;
+            this.listBox2.Location = new System.Drawing.Point(568, 192);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(120, 84);
+            this.listBox2.TabIndex = 24;
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(568, 161);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 26);
+            this.textBox8.TabIndex = 26;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.listBox2);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button7);
@@ -327,6 +359,9 @@ namespace Metotlar
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.TextBox textBox8;
     }
 }
 
