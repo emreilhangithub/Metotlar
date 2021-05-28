@@ -54,6 +54,12 @@ namespace Metotlar
             return s1 * s2 * s3;
         }
 
+        int Kup(int sayi1)
+        {
+            int sonuc = sayi1 * sayi1 * sayi1;
+            return sonuc;
+        }
+
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -83,6 +89,13 @@ namespace Metotlar
             label4.Text = Carp(5,2,10).ToString();
             label5.Text = Carp(20,10,10).ToString();
             label6.Text = Carp(7,8,10).ToString();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            int sayi = Convert.ToInt16(textBox5.Text);
+
+            label7.Text = Kup(sayi).ToString();
         }
     }
 }
