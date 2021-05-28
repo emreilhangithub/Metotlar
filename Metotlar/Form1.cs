@@ -60,8 +60,6 @@ namespace Metotlar
             return sonuc;
         }
 
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             temizle();
@@ -96,6 +94,15 @@ namespace Metotlar
             int sayi = Convert.ToInt16(textBox5.Text);
 
             label7.Text = Kup(sayi).ToString();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            int sayi1 = Convert.ToInt16(textBox6.Text);
+            int sayi2 = Convert.ToInt16(textBox7.Text);
+
+            label8.Text = Toplam(sayi1,sayi2).ToString();
+
         }
     }
 }
