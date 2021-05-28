@@ -56,6 +56,12 @@ namespace Metotlar
             this.button9 = new System.Windows.Forms.Button();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.button10 = new System.Windows.Forms.Button();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBox1
@@ -270,7 +276,7 @@ namespace Metotlar
             // 
             // button9
             // 
-            this.button9.Location = new System.Drawing.Point(568, 288);
+            this.button9.Location = new System.Drawing.Point(568, 276);
             this.button9.Name = "button9";
             this.button9.Size = new System.Drawing.Size(100, 36);
             this.button9.TabIndex = 25;
@@ -282,23 +288,80 @@ namespace Metotlar
             // 
             this.listBox2.FormattingEnabled = true;
             this.listBox2.ItemHeight = 20;
-            this.listBox2.Location = new System.Drawing.Point(568, 192);
+            this.listBox2.Location = new System.Drawing.Point(568, 180);
             this.listBox2.Name = "listBox2";
             this.listBox2.Size = new System.Drawing.Size(120, 84);
             this.listBox2.TabIndex = 24;
             // 
             // textBox8
             // 
-            this.textBox8.Location = new System.Drawing.Point(568, 161);
+            this.textBox8.Location = new System.Drawing.Point(568, 149);
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(100, 26);
             this.textBox8.TabIndex = 26;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(462, 347);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(100, 26);
+            this.textBox9.TabIndex = 29;
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(407, 536);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(100, 36);
+            this.button10.TabIndex = 28;
+            this.button10.Text = "Listele";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
+            // 
+            // listBox3
+            // 
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.ItemHeight = 20;
+            this.listBox3.Location = new System.Drawing.Point(345, 412);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(217, 104);
+            this.listBox3.TabIndex = 27;
+            // 
+            // textBox10
+            // 
+            this.textBox10.Location = new System.Drawing.Point(462, 380);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(100, 26);
+            this.textBox10.TabIndex = 30;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(349, 347);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(95, 20);
+            this.label9.TabIndex = 31;
+            this.label9.Text = "Sayı Giriniz :";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(341, 380);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(103, 20);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "Yazı Yazınız :";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(904, 649);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox10);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.listBox3);
             this.Controls.Add(this.textBox8);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.listBox2);
@@ -362,6 +425,12 @@ namespace Metotlar
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.TextBox textBox10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
     }
 }
 

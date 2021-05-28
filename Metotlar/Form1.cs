@@ -76,6 +76,14 @@ namespace Metotlar
             }
         }
 
+        void bas (int sayi,string yazi)
+        {
+            for (int i = 0; i < sayi; i++)
+            {
+                listBox3.Items.Add(yazi);
+            }
+        }
+
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -133,6 +141,17 @@ namespace Metotlar
             string yazi = textBox8.Text;
 
             yaz(yazi);
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            int sayi = Convert.ToInt16(textBox9.Text);
+            string yazi = textBox10.Text;
+
+            //listBox3.Items.Add(sayi.ToString()+yazi);
+
+            bas(sayi,yazi);
 
         }
     }
