@@ -42,6 +42,15 @@ namespace Metotlar
             textBox4.Text = "23";
         }
 
+        int Toplam(int s1,int s2)
+        {
+            int s3 = s1 + s2;
+            return s3;
+
+        }
+
+        
+
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -58,5 +67,14 @@ namespace Metotlar
         {
             yazdir();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            label1.Text = Toplam(1,2).ToString();
+            label2.Text = Toplam(7,3).ToString();
+            label3.Text = Toplam(9,8).ToString();
+        }
+
+      
     }
 }
