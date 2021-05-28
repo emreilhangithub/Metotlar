@@ -34,6 +34,14 @@ namespace Metotlar
             textBox4.BackColor = Color.Yellow;
         }
 
+        void yazdir()
+        {
+            textBox1.Text = "Mustafa Emre";
+            textBox2.Text = "İlhan";
+            textBox3.Text = "İstanbul";
+            textBox4.Text = "23";
+        }
+
 
 
         private void button1_Click(object sender, EventArgs e)
@@ -44,6 +52,11 @@ namespace Metotlar
         private void button2_Click(object sender, EventArgs e)
         {
             renklendir();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            yazdir();
         }
     }
 }
